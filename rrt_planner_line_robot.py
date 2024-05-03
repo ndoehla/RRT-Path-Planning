@@ -213,9 +213,6 @@ def outOfBounds(point):
 
 
 def rrt_search(G, tx, ty, canvas):
-    # Please carefully read the comments to get clues on where to start
-    # TODO
-    # Fill this function as needed to work ...
     global sigmax_for_randgen, sigmay_for_randgen
     n = 0
     nsteps = 0
