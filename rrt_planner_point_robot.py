@@ -1,20 +1,3 @@
-'''
-Hello and welcome to the first assignment :)
-Please try to enjoy implementing algorithms you learned from the course; in this regard, we also have tried
-to provide a good starting point for you to develop your own code. In this script, you may find different functions
-that should be defined by you to perform specific tasks. A good suggestion would be to begin with the primary
-function for the RRT algo named as "rrt_search". Following this function line by line you may realize how to define
-each function to make it work!
-Note, you may use the following commands to run this script with the required arguments:
-python3 rrt_planner_point_robot.py --arg1_name your_input1 --arg2_name your_input2 e.g.
-python3 rrt_planner_point_robot.py --world="shot.png"
-To see the list of arguments, take a look at utils.py
-Also note:
-G is a list containing two groups: the first group includes the nodes IDs (0,1,2,...), while the second holds all pairs of nodes creating an edge
-Vertices is a list of nodes locations in the map; it corresponds to the nodes' IDs mentioned earlier
-GOOD LUCK!
-'''
-
 import random
 import drawSample
 import sys
